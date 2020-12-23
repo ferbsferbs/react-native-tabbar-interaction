@@ -146,7 +146,7 @@ export default class TabBar extends Component{
 
     update(index) {
         let that = this;
-
+this.props.selectedIndex(index)
         that.setState({
             selectedIndex: index,
             showIcon: false,
